@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Takeway Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="bootstrap.css" rel="stylesheet1">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+  
+  
+  <script>
+    function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+  </script>
+</head>
+
+<body>
+
+<div class="container-fluid p-5 bg-primary text-white text-center">
+  <h1>Takeway!</h1>
+  <p>Take it away :)</p> 
+</div>
+<label class="ccl-649204f2a8e630fd ccl-a396bc55704a9c8a ccl-0956b2f88e605eb8 ccl-40ad99f7b47f3781 ccl-c3e25badf59b400c ccl-2c8747592795e0b6" for="location-search">Enter a postcode to see what we deliver</label>
+
+<input type="text" id="location-search" inputmode="text" class="ccl-3f330ce063d1da79 ccl-550f7231e0857eca" placeholder="e.g. EC4R 3TE" autocomplete="off" spellcheck="true" autocorrect="on" name="location-search" aria-invalid="false" aria-required="false" value="">
+
+
+<h2>MENU</h2>
+<div id="Burger" class="tabcontent">
+ <p>
+    <h4>
+        BURGERS
+    </h4>
+    <ul>
+        <li><a href="https://www.burgerking.co.uk/menu">Burger King</a></li>
+        <li><a href="https://asana.com/uses/project-management?utm_medium=pd_cpc_nb&utm_campaign=project_management&utm_source=capterra">White Castle</a></li>
+        <li><a href="https://www.atlassian.com/software/confluence?utm_source=capterra&utm_medium=paid-review-sites&utm_campaign=P9zconfluence9xO9zppm9xV9zcapterra9xG9zuk9xL9zen9xF9zdisc9xA9ztext9xD9zalld9xU9zproject-management&utm_content=visit-website"> Dairy Queen</a></li>
+        <li><a href="https://monday.com/lp/projectmanagement/bundle/?utm_medium=cpc&utm_campaign=ww-multi-prm-project-workos-desktop-project_management-listing-core&utm_adgroup=project_management&utm_source=capterra">McDonald’s</a></li>
+        <li><a href="https://www.forecast.app/?utm_campaign=Gartner&utm_source=gartner&utm_source=capterra">Forecast</a></li>
+    </ul>
+  </p>
+</div>
+
+<div id="pasta" class="tabcontent">
+  
+  <p> <h4>
+    PASTA
+</h4>
+<ul>
+    <li><a href="https://try.wrike.com/project-management-capterra/?utm_medium=cpc&utm_content=listing&utm_campaign=project&utm_source=capterra">Svago Italian</a></li>
+    <li><a href="https://trello.com/home?utm_source=capterra&utm_medium=paid-review-sites&utm_campaign=P9ztrello9xO9zppm9xV9zcapterra9xG9zuk9xL9zen9xF9zdisc9xA9ztext9xD9zalld9xU9zproject-management&utm_content=visit-website">Elgano Italian Restaurant</a></li>
+    <li><a href="https://www.zoho.com/projects/?utm_medium=cpc&utm_campaign=Project-Management&utm_source=capterra">Giovanni's in Park Place</a></li>
+   
+</ul></p> 
+</div>
+
+<div id="Welsh cake" class="tabcontent">
+  
+  <p> <h4>
+    Welsh cakes
+</h4>
+<ul>
+    <li><a href="https://try.wrike.com/project-management-capterra/?utm_medium=cpc&utm_content=listing&utm_campaign=project&utm_source=capterra">cakes</a></li>
+    <li><a href="https://trello.com/home?utm_source=capterra&utm_medium=paid-review-sites&utm_campaign=P9ztrello9xO9zppm9xV9zcapterra9xG9zuk9xL9zen9xF9zdisc9xA9ztext9xD9zalld9xU9zproject-management&utm_content=visit-website">mini cakes</a></li>
+    <li><a href="https://www.zoho.com/projects/?utm_medium=cpc&utm_campaign=Project-Management&utm_source=capterra">spongy cakes</a></li>
+    
+</ul></p> 
+</div>
+  
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Burgers</h3>
+      <p>
+        <img src="burger.jpeg" alt="burger" style="width:100%;max-width:300px">
+        </p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Pasta</h3>
+      <p><img src="pasta.jpeg" alt="pasta" style="width:100%;max-width:300px"></p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Welsh cake</h3>        
+      <p><img src="cake.jpeg" alt="cake" style="width:100%;max-width:300px"></p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
